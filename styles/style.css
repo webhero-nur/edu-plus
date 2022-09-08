@@ -1,4 +1,5 @@
-.carousel-item::before {
+/* slider */
+.carousel-container::before {
     content: "";
     display: block;
     position: absolute;
@@ -7,5 +8,5 @@
     bottom: 0;
     left: 0;
     background: #000000;
-    opacity: 0.5;
+    opacity: 0.6;
 }
