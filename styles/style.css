@@ -1,3 +1,12 @@
+.eduplus-bg-info {
+    background-color: #3a9bdc;
+}
+
+.eduplus-bth-info {
+    background-color: #3a9bdc !important;
+    border-color: #3a9bdc !important;
+}
+
 /* slider */
 .carousel-container::before {
     content: "";
@@ -13,4 +22,16 @@
 
 #explore .align-items-center {
     background-color: #f4fafd;
+}
+
+/* footer */
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 992px) {
+    #company {
+        display: none;
+    }
 }
